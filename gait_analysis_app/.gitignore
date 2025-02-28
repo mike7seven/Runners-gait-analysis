@@ -16,3 +16,11 @@ config/
 venv/
 .env/
 env/
+
+# raw videos and transcripts
+data/transcripts/
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+data/**/*.webm
+data/**/*.mpg
