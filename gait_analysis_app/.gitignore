@@ -1,0 +1,18 @@
+# python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# configuration with secrets
+config/
+
+# virtual environments
+.venv
+venv/
+.env/
+env/
