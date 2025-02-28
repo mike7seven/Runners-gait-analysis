@@ -1,0 +1,35 @@
+{
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.analysis.extraPaths": ["./gait_analysis_app"],
+    "javascript.format.enable": true,
+    "typescript.format.enable": true,
+    
+    "aiContextFolders": [
+      "gait_analysis_app",
+      "gait_analysis_app/src/pose",
+      "gait_analysis_app/src/embeddings",
+      "gait_analysis_app/src/database"
+    ],
+    
+    "aiIgnorePaths": [
+      "**/node_modules/**",
+      "**/venv/**",
+      "**/__pycache__/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.git/**"
+    ],
+    
+    "files.associations": {
+      "*.mpg": "binary"
+    },
+    
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/venv": true,
+      "**/*.mpg": true
+    }
+  }

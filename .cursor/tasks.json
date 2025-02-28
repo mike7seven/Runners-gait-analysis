@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start FastAPI Server",
+        "type": "shell",
+        "command": "python -m uvicorn gait_analysis_app.main:app --reload --port 8000",
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Start Node.js Server",
+        "type": "shell",
+        "command": "node server.js",
+        "problemMatcher": []
+      },
+      {
+        "label": "Start React Dev Server",
+        "type": "shell",
+        "command": "cd frontend && npm run dev",
+        "problemMatcher": []
+      },
+      {
+        "label": "Run Populate Database",
+        "type": "shell",
+        "command": "python gait_analysis_app/populate_database.py",
+        "problemMatcher": []
+      },
+      {
+        "label": "Start Full Stack",
+        "dependsOn": [
+          "Start FastAPI Server",
+          "Start Node.js Server",
+          "Start React Dev Server"
+        ],
+        "problemMatcher": []
+      }
+    ]
+  }

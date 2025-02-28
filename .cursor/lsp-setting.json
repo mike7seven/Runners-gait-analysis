@@ -1,0 +1,21 @@
+{
+    "pyright": {
+      "disableOrganizeImports": false,
+      "analysis": {
+        "autoSearchPaths": true,
+        "useLibraryCodeForTypes": true,
+        "diagnosticMode": "workspace",
+        "typeCheckingMode": "basic",
+        "extraPaths": ["./gait_analysis_app"]
+      }
+    },
+    "typescript": {
+      "preferences": {
+        "importModuleSpecifier": "relative",
+        "quoteStyle": "single"
+      },
+      "suggest": {
+        "completeFunctionCalls": true
+      }
+    }
+  }
