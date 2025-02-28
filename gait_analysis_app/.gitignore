@@ -1,0 +1,26 @@
+# python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# configuration with secrets
+config/
+
+# virtual environments
+.venv
+venv/
+.env/
+env/
+
+# raw videos and transcripts
+data/transcripts/
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+data/**/*.webm
+data/**/*.mpg
