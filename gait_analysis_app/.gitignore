@@ -9,7 +9,7 @@ build/
 *.egg-info/
 
 # configuration with secrets
-config/
+settings.py
 
 # virtual environments
 .venv
@@ -18,7 +18,7 @@ venv/
 env/
 
 # raw videos and transcripts
-data/transcripts/
+data/**/*.txt
 data/**/*.mp4
 data/**/*.avi
 data/**/*.mov
