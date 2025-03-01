@@ -1,1 +1,0 @@
-pinecone api key: pcsk_75u8m8_L5iBMApTv4Tt8FrbZeypQCbhHsZjLpCibgcNBuzZ1ZfwQLbqmu58uC6XKQyQpj3
