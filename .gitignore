@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and Models
+data/raw/*
+data/processed/*
+*.h5
+*.pkl
+*.model
+*.weights
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+logs/
+wandb/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+config/settings.py
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+gait_analysis_app/data/raw/
+gait_analysis_app/data/processed/
+gait_analysis_app/models/
+*.mp4
+*.avi
+*.mov 
