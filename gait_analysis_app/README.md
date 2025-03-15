@@ -2,6 +2,10 @@
 
 This application analyzes human gait patterns from video data using MediaPipe for pose estimation. It extracts pose landmarks, generates embeddings, and stores them in a Pinecone vector database for similarity search.
 
+## System Architecture
+
+![System Architecture](../../Architecture.svg)
+
 ## Project Structure
 
 - `src/`: Source code
