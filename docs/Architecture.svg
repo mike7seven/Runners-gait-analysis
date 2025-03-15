@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+    <!-- Background -->
+    <rect width="1200" height="1200" fill="#f8f9fa" />
+    
+    <!-- Title -->
+    <text x="400" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">
+        Runner Gait Analysis System Architecture
+    </text>
+    
+    <!-- Frontend Applications -->
+    <g id="frontend-apps">
+        <!-- Web Dashboard -->
+        <rect x="50" y="100" width="180" height="70" rx="5" fill="#fff3cd" stroke="#ffc107" stroke-width="2" />
+        <text x="140" y="130" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Web Dashboard</text>
+        <text x="140" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">React / Vue / Angular</text>
+        
+        <!-- iOS App -->
+        <rect x="310" y="100" width="180" height="70" rx="5" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" />
+        <text x="400" y="130" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">iOS App</text>
+        <text x="400" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">Swift / SwiftUI</text>
+        
+        <!-- Android App -->
+        <rect x="570" y="100" width="180" height="70" rx="5" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" />
+        <text x="660" y="130" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Android App</text>
+        <text x="660" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">Kotlin / Jetpack</text>
+    </g>
+    
+    <!-- Backend Services -->
+    <g id="backend-services">
+        <!-- Backend API -->
+        <rect x="50" y="350" width="180" height="70" rx="5" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+        <text x="140" y="380" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Backend API</text>
+        <text x="140" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">User Data and Analysis</text>
+        
+        <!-- Integration Service -->
+        <rect x="310" y="350" width="180" height="70" rx="5" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+        <text x="400" y="380" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Integration Service</text>
+        <text x="400" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">Video Processing Pipeline</text>
+        
+        <!-- Strava Integration -->
+        <rect x="570" y="350" width="180" height="70" rx="5" fill="#e2e3e5" stroke="#6c757d" stroke-width="2" />
+        <text x="660" y="380" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Strava Integration</text>
+        <text x="660" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">OAuth and Webhook Service</text>
+
+        <!-- Core Analysis Component (MediaPipe) -->
+        <rect x="830" y="350" width="180" height="70" rx="5" fill="#d1e7dd" stroke="#198754" stroke-width="2" />
+        <text x="920" y="380" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Core Gait Analysis</text>
+        <text x="920" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#000000">MediaPipe Integration</text>
+    </g>
+    
+    <!-- Database -->
+    <rect x="310" y="500" width="180" height="70" rx="5" fill="#d0d0ff" stroke="#6610f2" stroke-width="2" />
+    <text x="400" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Database</text>
+    
+    <!-- Connections -->
+    <g id="connections">
+        <!-- Frontend to Backend API -->
+        <path d="M 140 170 L 140 350" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 400 170 L 400 250 L 140 250 L 140 350" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 660 170 L 660 250 L 140 250 L 140 350" stroke="#666" stroke-width="1.5" fill="none" />
+        
+        <!-- SDK Integration from Core -->
+        
+        <!-- Services to Database -->
+        <path d="M 140 420 L 140 535 L 310 535" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 400 420 L 400 500" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 660 420 L 660 535 L 490 535" stroke="#666" stroke-width="1.5" fill="none" />
+        
+        <!-- Inter-service Communications -->
+        <path d="M 230 385 L 310 385" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 490 385 L 570 385" stroke="#666" stroke-width="1.5" fill="none" />
+        <path d="M 750 385 L 830 385" stroke="#666" stroke-width="1.5" fill="none" />
+    </g>
+    
+    <!-- Legend -->
+    <g id="legend">
+        <rect x="30" y="600" width="180" height="200" rx="5" fill="#ffffff" stroke="#000000" stroke-width="1" />
+        <text x="110" y="620" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Legend</text>
+        
+        <!-- Legend Items -->
+        <g id="legend-items">
+            <rect x="40" y="630" width="15" height="15" fill="#d1e7dd" stroke="#198754" stroke-width="1" />
+            <text x="60" y="642" font-family="Arial" font-size="12" text-anchor="start">Core Components</text>
+            
+            <rect x="40" y="650" width="15" height="15" fill="#cfe2ff" stroke="#0d6efd" stroke-width="1" />
+            <text x="60" y="662" font-family="Arial" font-size="12" text-anchor="start">Mobile Applications</text>
+            
+            <rect x="40" y="670" width="15" height="15" fill="#f8d7da" stroke="#dc3545" stroke-width="1" />
+            <text x="60" y="682" font-family="Arial" font-size="12" text-anchor="start">Backend Services</text>
+            
+            <rect x="40" y="690" width="15" height="15" fill="#fff3cd" stroke="#ffc107" stroke-width="1" />
+            <text x="60" y="702" font-family="Arial" font-size="12" text-anchor="start">Web Dashboard</text>
+            
+            <rect x="40" y="710" width="15" height="15" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" />
+            <text x="60" y="722" font-family="Arial" font-size="12" text-anchor="start">Integration Services</text>
+            
+            <rect x="40" y="730" width="15" height="15" fill="#d0d0ff" stroke="#6610f2" stroke-width="1" />
+            <text x="60" y="742" font-family="Arial" font-size="12" text-anchor="start">Data Storage</text>
+
+            <rect x="40" y="750" width="15" height="15" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" />
+            <line x1="41" y1="763" x2="54" y2="752" stroke="#666" stroke-width="1.5" />
+            <text x="60" y="762" font-family="Arial" font-size="12" text-anchor="start">Direct API Communication</text>
+            
+            <rect x="40" y="770" width="15" height="15" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" />
+            <line x1="41" y1="772" x2="54" y2="783" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3" />
+            <text x="60" y="782" font-family="Arial" font-size="12" text-anchor="start">Library/SDK Integration</text>
+        </g>
+    </g>
+</svg>

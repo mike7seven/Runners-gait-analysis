@@ -4,7 +4,7 @@ This application analyzes human gait patterns from video data using MediaPipe fo
 
 ## System Architecture
 
-![System Architecture](../../Architecture.svg)
+![System Architecture](../docs/Architecture.svg)
 
 ## Project Structure
 
