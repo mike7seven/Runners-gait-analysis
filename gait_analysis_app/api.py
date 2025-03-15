@@ -120,7 +120,6 @@ async def custom_swagger_ui_html():
         title="Runners Gait Analysis API",
         swagger_js_url="https://cdn.jsdelivr.net/npm/swagger-ui-dist@4/swagger-ui-bundle.js",
         swagger_css_url="https://cdn.jsdelivr.net/npm/swagger-ui-dist@4/swagger-ui.css",
-        swagger_favicon_url="/static/favicon.png"
     )
 
 @app.get("/redoc", include_in_schema=False)
@@ -129,7 +128,6 @@ async def redoc_html():
         openapi_url="/openapi.json",
         title="Runners Gait Analysis API - ReDoc",
         redoc_js_url="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js",
-        redoc_favicon_url="/static/favicon.png"
     )
 
 @app.get("/api/health")
@@ -316,17 +314,9 @@ async def get_stats():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Create a directory for static files
-STATIC_DIR = 'static'
-if not os.path.exists(STATIC_DIR):
-    os.makedirs(STATIC_DIR)
-
 # Mount static files for the web dashboard
 # This allows serving the React frontend from the same server
 # app.mount("/", StaticFiles(directory="../web-dashboard/build", html=True), name="static")
-
-# Mount static directory for favicon and other static assets
-app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 if __name__ == '__main__':
     import uvicorn

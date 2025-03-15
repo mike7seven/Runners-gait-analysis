@@ -131,11 +131,30 @@ python api.py
 
 The API will be available at http://localhost:8000.
 
-## API Documentation
+## API Documentation with Swagger UI
 
-FastAPI automatically generates interactive API documentation:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+FastAPI automatically generates interactive API documentation using Swagger UI:
+
+- **Swagger UI**: http://localhost:8000/docs
+  - Interactive documentation that allows you to:
+  - Explore all available endpoints
+  - See request/response schemas
+  - Test endpoints directly from the browser
+  - Understand parameter requirements
+
+- **ReDoc**: http://localhost:8000/redoc
+  - Alternative documentation view with a different layout
+
+### Using Swagger UI
+
+1. Navigate to http://localhost:8000/docs in your browser
+2. Click on any endpoint to expand it
+3. Click "Try it out" to test the endpoint
+4. Fill in the required parameters
+5. Click "Execute" to send the request
+6. View the response below
+
+This makes it easy to test and understand the API without writing any code.
 
 ## Integration with React Frontend
 
