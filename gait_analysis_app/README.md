@@ -20,7 +20,8 @@ This application analyzes human gait patterns from video data using MediaPipe fo
 ## Getting Started
 
 1. Install dependencies:
-   ```
+
+   ```bash
    pip install -r requirements.txt
    ```
 
@@ -32,7 +33,7 @@ This application analyzes human gait patterns from video data using MediaPipe fo
 
 ## Running the Application
 
-```
+```bash
 python app.py
 ```
 

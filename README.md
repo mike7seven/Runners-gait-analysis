@@ -5,6 +5,7 @@ A comprehensive system for analyzing runners' gait patterns using computer visio
 ## Overview
 
 This repository contains a complete gait analysis system that:
+
 - Processes video footage of runners
 - Extracts pose data and movement patterns
 - Analyzes gait characteristics
@@ -12,7 +13,7 @@ This repository contains a complete gait analysis system that:
 
 ## Repository Structure
 
-```
+```text
 .
 ├── docs/                   # Project documentation
 ├── gait_analysis_app/     # Main application code
@@ -39,4 +40,4 @@ This project is licensed under the terms of the license file in the root directo
 
 ## Contributing
 
-We welcome contributions! Please read our contribution guidelines in the documentation before submitting pull requests. 
+We welcome contributions! Please read our contribution guidelines in the documentation before submitting pull requests.
