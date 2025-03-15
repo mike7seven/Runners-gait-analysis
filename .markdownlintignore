@@ -1,0 +1,5 @@
+# Ignore API documentation
+gait_analysis_app/API_README.md
+
+# Ignore other documentation files if needed
+# docs/*.md 

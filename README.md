@@ -17,15 +17,15 @@ This repository contains a complete gait analysis system that:
 ```text
 .
 ├── docs/                   # Project documentation
-├── gait_analysis_app/     # Main application code
-│   ├── src/              # Source code modules
-│   ├── notebooks/        # Analysis notebooks
-│   ├── config/          # Configuration files
-│   ├── data/            # Data storage
-│   ├── api.py           # REST API implementation
-│   ├── API_README.md    # API documentation
-│   └── README.md        # Application-specific documentation
-└── LICENSE              # Project license
+├── gait_analysis_app/      # Main application code
+│   ├── src/               # Source code modules
+│   ├── notebooks/         # Analysis notebooks
+│   ├── config/            # Configuration files
+│   ├── data/              # Data storage
+│   ├── api.py             # REST API implementation
+│   ├── API_README.md      # API documentation
+│   └── README.md          # Application-specific documentation
+└── LICENSE                # Project license
 ```
 
 ## Getting Started
@@ -37,17 +37,19 @@ For detailed setup and usage instructions, please refer to the [application docu
 To start the REST API server:
 
 1. Install dependencies:
+
    ```bash
    cd gait_analysis_app
    pip install -r requirements.txt
    ```
 
 2. Start the API server:
+
    ```bash
    python api.py
    ```
 
-3. Access the API documentation at http://localhost:8000/docs
+3. Access the API documentation at <http://localhost:8000/docs>
 
 ## Documentation
 
